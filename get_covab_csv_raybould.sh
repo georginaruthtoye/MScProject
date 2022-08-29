@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 
-# --------------------------------------
+# ---------------------------------------
 # DOWNLOAD CSV FILES FROM  CoV-AbDab
-# --------------------------------------
+# ---------------------------------------
 
 # Study details: Raybould et al. (2021)
 # https://www.jimmunol.org/content/jimmunol/198/6/2489
@@ -15,8 +15,9 @@
 # The CoV-AbDab database consisted of a single, large CSV file, which was
 # downloaded in its entirity. Each dataset of interest was then extracted
 # manually, and saved as a smaller CSV file. Each record represented a
-# single unique Ig H-chain sequence, obtained by Sanger sequencing methods,
-# plus metadata.
+# single unique IgG Heavy-Chain (IgG_HC) sequence, obtained by Sanger 
+# sequencing methods, plus metadata.
+
 
 # ---------------------------------------------------------------
 # Download Study Data: Raybould_2020, IgG_HC data only [n=1398]
@@ -28,87 +29,3 @@ wget http://opig.stats.ox.ac.uk/webapps/\
     covabdab/static/downloads/CoV-AbDab_120720.csv
     
 # ----------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 34567890123456789012345678901234567890123456789012345678901234567890123456789
